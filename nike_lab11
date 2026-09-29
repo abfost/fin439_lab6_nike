@@ -1,0 +1,117 @@
+# Lab 10–11 — NIKE, Inc. pro-forma and sensitivity evidence
+
+## Scope and source data
+
+This model uses NIKE, Inc. as the company and USD millions except for per-share
+values. FY2026 is the reported opening period. Reported FY2026 revenue was
+$46,398 million, operating income calculated from the reported income statement
+was $3,797 million, cash was $7,563 million, diluted weighted-average shares
+were 1,481.0 million, and the effective tax rate was 20.3%. Source: [NIKE FY2026
+Form 10-K](https://www.sec.gov/Archives/edgar/data/320187/000032018726000088/nke-20260531.htm),
+Consolidated Statements of Income (p. 55), Balance Sheets (p. 57), and Cash Flows
+(p. 58).
+
+The FY2027E–FY2031E forecast is a transparent, simplified three-statement model.
+It forecasts revenue, EBIT, NOPAT, working capital, PP&E, FCFF, a balancing cash
+line, and a DCF enterprise value. The balance-sheet check is assets minus
+liabilities minus equity. All displayed runs have a zero gap, and base was
+restored and rerun at the end.
+
+### Assumption table
+
+The growth and margin paths below are labelled judgments for a gradual Nike
+turnaround; they are not company guidance. The reported FY2026 starting point
+supports using these two independent operating drivers: NIKE reported revenue of
+$46.4 billion, 42.9% gross margin, and $17.7 billion of Direct revenue, which
+was down 6% from FY2025. Its 10-K says the Direct decline reflected reduced
+digital traffic, while gross margin was affected by product costs, logistics,
+and channel mix.
+
+| Input | FY2027E | FY2028E | FY2029E | FY2030E | FY2031E | Unit / range reason |
+|---|---:|---:|---:|---:|---:|---|
+| Revenue growth — lower | 2.0% | 3.0% | 3.0% | 2.0% | 2.0% | Base minus 1 percentage point each forecast year; labelled judgment testing slower recovery in traffic, China, and Direct sales. |
+| Revenue growth — base | 3.0% | 4.0% | 4.0% | 3.0% | 3.0% | Labelled judgment: gradual recovery from FY2026’s roughly flat reported revenue. |
+| Revenue growth — higher | 4.0% | 5.0% | 5.0% | 4.0% | 4.0% | Base plus 1 percentage point each forecast year; labelled judgment testing faster recovery. |
+| Operating margin — lower | 7.8% | 8.6% | 9.3% | 9.8% | 10.2% | Base minus 1 percentage point each forecast year; labelled judgment testing persistent product-cost / discount pressure. |
+| Operating margin — base | 8.8% | 9.6% | 10.3% | 10.8% | 11.2% | Labelled judgment. FY2026 reported EBIT margin was about 8.2%. |
+| Operating margin — higher | 9.8% | 10.6% | 11.3% | 11.8% | 12.2% | Base plus 1 percentage point each forecast year; labelled judgment testing stronger product mix and cost recovery. |
+
+Other independent assumptions remain at base for every sensitivity run. They
+include the FY2026 reported 20.3% effective tax rate, working-capital days based
+on FY2026, depreciation/revenue of 1.61%, capex/revenue of 1.47%, 8.5% WACC,
+2.5% terminal growth, and 1,481.0 million diluted shares. FCFF is free cash flow
+to the firm, calculated as NOPAT + depreciation − capex − change in net working
+capital.
+
+## Lab 10 base result
+
+| Output | FY2027E | FY2031E |
+|---|---:|---:|
+| Revenue | 47,789.9 | 54,837.5 |
+| Operating income (EBIT) | 4,205.5 | 6,141.8 |
+| FCFF | 3,280.9 | 4,814.8 |
+| Value per share | $47.74 | $47.74 |
+| Balance-sheet gap | 0.0 | 0.0 |
+
+## Lab 11 — one-at-a-time sensitivity results
+
+Each case uses a fresh copy of the base assumptions. Only the named independent
+driver changes in the stated years; linked statements and cash recalculate.
+
+| Driver and case | FY2031E operating income | Change from base | FY2031E FCFF | Change from base | Value/share | Change from base | Balance-sheet gap |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Revenue growth: lower | 5,850.5 | (291.3) | 4,634.6 | (180.2) | $46.17 | ($1.57) | 0.0 |
+| Revenue growth: base | 6,141.8 | 0.0 | 4,814.8 | 0.0 | $47.74 | $0.00 | 0.0 |
+| Revenue growth: higher | 6,444.6 | 302.8 | 5,000.1 | 185.3 | $49.36 | $1.61 | 0.0 |
+| Operating margin: lower | 5,593.4 | (548.4) | 4,377.7 | (437.1) | $43.31 | ($4.44) | 0.0 |
+| Operating margin: base | 6,141.8 | 0.0 | 4,814.8 | 0.0 | $47.74 | $0.00 | 0.0 |
+| Operating margin: higher | 6,690.2 | 548.4 | 5,251.8 | 437.1 | $52.18 | $4.44 | 0.0 |
+
+| Driver | EBIT span | FCFF span | Value/share span |
+|---|---:|---:|---:|
+| Revenue growth | 594.1 | 365.6 | $3.18 |
+| Operating margin | 1,096.8 | 874.1 | $8.88 |
+
+## Evidence-based result explanation
+
+Over these specific ±1-percentage-point paths, operating margin is the larger
+driver for FY2031E operating income, FCFF, and value per share. It has an EBIT
+span of $1,096.8 million versus $594.1 million for revenue growth, an FCFF span
+of $874.1 million versus $365.6 million, and a value-per-share span of $8.88
+versus $3.18. The mechanism is direct: a one-point margin change applies to the
+full projected revenue base and changes NOPAT and FCFF directly. Growth also
+raises the revenue base, but it increases working capital and investment needs,
+which offsets part of its FCFF effect.
+
+This is a range-specific sensitivity result, not a forecast probability. Margin
+is ranked higher here partly because both drivers use the same 100-basis-point
+annual perturbation but have different economic paths through the statements. A
+wider revenue-growth range could change the ranking. The base DCF value of
+$47.74 per share is above the $36.62 comparison-date price recorded in the Lab 8
+calculator, but that valuation conclusion should be treated as conditional on
+the stated recovery and margin assumptions.
+
+## Required individual records — complete truthfully before submitting
+
+The code and result evidence are complete, but these are personal/partner events
+that cannot accurately be invented. Fill them in with what you actually did.
+
+### Locked changed-input record
+
+- Timestamp or Git commit before the runs: **[September 29, 2026]**
+- Prediction: **[Operating margin, 8.8, 9.6, 10.3, 10.8, 11.2%. Each 1 percentage point lower. I expect FY2031 EBIT, FCFF, and value per share to decline because lower margin applies across all projected revenue.  ]**
+- Actual result: **[FY2031 EBIT decreased by $548.4 million, FCFF decreased by $437.1 million, and value per share decreased by $4.44 to $43.31.]**
+- Prediction error or confirmation: **[This direction matched my prediction. The larger-than-revenue effect occured because the margin change applies to the entire FY2031 recenue base. ]**
+- Did this change your valuation conclusion or research priority? **[It makes margin recovery the higher priority because operating margin sensitivity produced the widest value-per-share span over the ranges. I would focus on evidence about costs, discounts, and operating-cost discipline. ]**
+
+### Partner exchanges
+
+- Exchange 1 question received and response: **[I’m finishing a Nike sensitivity model. Can you check whether I changed only one input at a time and ask whether my ±1 percentage-point ranges seem reasonable? My result is that operating margin has a larger value-per-share span ($8.88) than revenue growth ($3.18). Kathryn asked why I used ±1 percentage point. I explained it tests a modest slower/faster recovery around the base forecast.]**
+- Exchange 2 check performed on partner’s analysis: **[Kathryn checked the lower-margin case against base: $43.31 − $47.74 = −$4.43, approximately −$4.44 due to rounding. They confirmed the revenue-growth inputs stayed at base.]**
+- Exchange 3 question about whether range choice affects ranking, and response: **[Kathryn asked whether a wider revenue-growth range could change the ranking. I answered yes: the result says margin is larger only over these selected ranges.]**
+
+## Learn-on-your-own responses
+
+1. One-at-a-time sensitivity changes one independent assumption while holding the other independent assumptions at base, then recalculates every linked output. It isolates the model’s response to that stated change.
+2. The ranking depends on both the model mechanism and the selected ranges. A wider range generally produces a wider output span, so a driver with a larger span is the larger driver only over the tested ranges.
+3. A sensitivity table shows conditional model outcomes; it does not say how likely each input level is, whether the inputs move together, or whether the model captures every risk. It is therefore not a probability forecast.
