@@ -1,0 +1,38 @@
+How did I get from choosing this company to my valuation conclusion, which assumptions drive it, and what evidence could change my mind?
+I chose Nike because it is a global sportswear company with clear financial information and a clear recovery story. I researched its sales, Direct business, digital sales, and margins. Then I made a five-year forecast and valued Nike using a DCF. My result depends mostly on revenue growth and operating margin. Operating margin was the biggest driver in my sensitivity test. I would change my mind if Nike’s Direct sales, digital traffic, product demand, or margins stay weak.
+Why did I choose Nike?
+I chose Nike because it is a well-known global company with strong financial reports and clear business drivers. I wanted to see if Nike can recover from weaker sales, weaker digital traffic, and pressure on margins.
+How does Nike make money?
+Nike makes money by selling athletic footwear, apparel, and equipment through wholesale partners, Nike stores, and Nike Direct, including its website.
+What evidence matters most?
+Nike’s FY2026 revenue was about $46.4 billion. Nike Direct revenue was down 6%, and digital sales declined because traffic was lower. Nike’s operating margin was about 8.2%. These facts matter because sales growth and margin recovery drive future profit and value.”
+What did I forecast?
+I forecasted revenue growth, operating margin, taxes, working capital, capex, cash flow, and value. My base case assumes Nike slowly recovers over five years.
+What were my main assumptions?
+My main assumptions were revenue growth of 3% to 4% per year and operating margin improving from 8.8% to 11.2% over the forecast. These are my judgment assumptions, not Nike guidance.
+How do the assumptions move through the model?
+Revenue growth increases sales. Operating margin determines how much of those sales become operating profit. Operating profit affects taxes and free cash flow. Free cash flow is used in the DCF to estimate value per share.
+What was my DCF result?
+My base DCF value was about $48.36 per share. The saved market price was $36.62 per share. This suggests upside in my base case, but only if Nike improves sales and margins.
+Why might the DCF and P/E results disagree?
+The DCF uses my future recovery assumptions. The P/E estimate uses Deckers as one peer and Nike’s current earnings. Deckers is not a perfect match for Nike, so the P/E result is only a reference point. I do not average the two methods.
+What did I test in sensitivity analysis?
+I tested revenue growth and operating margin. I changed each one 1 percentage point lower and higher while keeping the other assumptions the same. Then I checked the effect on operating income, FCFF, and value per share.
+Which driver mattered most?
+Operating margin mattered most over my tested ranges. Its value-per-share span was $8.88, compared with $3.18 for revenue growth.
+Why did operating margin matter more?
+A change in margin affects profit on all of Nike’s sales. Revenue growth also helps, but higher sales require more working capital and investment, which reduces part of the cash-flow benefit.
+Does that mean margin is always more important?
+No. It is more important only over my chosen ranges. If I used a wider revenue-growth range, the ranking could change.
+What would Nike need to improve?
+Nike needs stronger Direct and digital sales, more full-price sales, less discounting, better product demand, lower product and shipping costs, and better cost control. Those changes would help revenue growth and operating margin.
+What would change my mind?
+I would become less positive if Nike’s Direct sales stay weak, digital traffic does not improve, discounts remain high, product costs increase, or operating margins do not recover. I would become more positive if Nike shows stronger full-price demand, better digital traffic, and improving margins.
+What does the reverse DCF say?
+To match the saved market price, Nike’s operating-margin assumptions would need to be about 2.65 percentage points lower than my base forecast each year. That shows the market price reflects a more cautious margin outlook than my base case.
+Final conclusion
+My conclusion is conditional. My model suggests Nike could be worth more than its saved market price if revenue and margins recover. However, margin recovery is the most important risk and research priority.
+Reflection answer
+The question that made me think most was whether my driver ranking depends on the ranges I selected. I now understand that sensitivity analysis does not prove what will happen; it shows which assumption moves the model the most over the ranges I tested.
+Partner Question: What would you want to see Nike do to fix this problem?
+I would need to see more growth in their Direct and digital sales, lower product and shipping costs, and better product launches. Better launches would increase demand for footwear and apparel. 
